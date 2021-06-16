@@ -139,6 +139,7 @@
   "api_getsupply": "Returns the current money supply.",
   "api_getnextrewardestimate": "Returns an estimate for the next block reward based on the current state of decentralized voting.",
   "api_getnextrewardwhenstr": "Returns a string describing how long until the votes are tallied and the next block reward is computed.",
+  "api_resolvedomain": "Returns a string representing the IPFS/IPNS hash of the given domain.",
 
   // markets view
   "mkt_title": "{1} Market Details",
