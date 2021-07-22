@@ -1,8 +1,8 @@
-## Bitcreds Iquidus Block Explorer
+## Alterdot Iquidus Block Explorer
 
 This explorer is based on the eIquidus variant from the Exor team. They put together changes from numerous forks and created a functioning version with features that are also meaningful to our project. The rest of the README file below the eIquidus title is left as it is in their repository in order to give credit for their work.
 
-Support was added for the following custom RPC/API command which is used in the Bitcreds ecosystem:
+Support was added for the following custom RPC/API command which is used in the Alterdot ecosystem:
   - **resolvedomain:** Returns the corresponding IPFS/IPNS hash of the registered blockchain domain name
 
 # eIquidus
