@@ -234,7 +234,10 @@ if (database == 'peers') {
 
           lib.syncLoop((isObject ? objectKeys : body).length, function (loop) {
             var i = loop.iteration();
-
+            
+            if (isObject)
+              body[objectKeys[i]].txhash = objectKeys[i].slice(0, -2); // Alterdot collateral txhash is inside the key of the masternode JSON objet in format txHash-txIndex
+            
             db.save_masternode((isObject ? body[objectKeys[i]] : body[i]), function (success) {
               if (success)
                 loop.next();
