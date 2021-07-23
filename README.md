@@ -1,9 +1,6 @@
 ## Alterdot Iquidus Block Explorer
 
-This explorer is based on the eIquidus variant from the Exor team. They put together changes from numerous forks and created a functioning version with features that are also meaningful to our project. The rest of the README file below the eIquidus title is left as it is in their repository in order to give credit for their work.
-
-Support was added for the following custom RPC/API command which is used in the Alterdot ecosystem:
-  - **resolvedomain:** Returns the corresponding IPFS/IPNS hash of the registered blockchain domain name
+This explorer is based on the eIquidus variant from the Exor team and their developer **[joeuhren](https://github.com/joeuhren)** who deserves an honorable mention for being the latest consistent maintainer of the original Iquidus. Changes from numerous forks have been put together into this repository and a functioning version was created with extended features that are also meaningful to our project. The rest of the README file below the eIquidus title is left mostly unchanged in order to give credit for their work.
 
 # eIquidus
 
@@ -18,6 +15,7 @@ Written in node.js and mongodb, eIquidus is the most stable, secure, customizabl
 - **[Alan Rudolf (aka suprnurd)](https://github.com/suprnurd):** for the custom changes found in the [Ciquidus explorer](https://github.com/suprnurd/ciquidus)
 - **[Tim Garrity (aka uaktags)](https://github.com/uaktags):** for his many contributions to the Iquidus explorer and custom features from the [uaktags explorer](https://github.com/uaktags/explorer)
 - **[TheHolyRoger](https://github.com/TheHolyRoger):** for his continued work and contributions to the Iquidus explorer
+- **[joeuhren](https://github.com/joeuhren)** for his sustained work and numerous updates to the Iquidus explorer
 - All the rest of the Iquidus contributors who helped shape the Iquidus explorer in some way
 
 <h3 class="rich-diff-level-zero" align="center" name="eiquidus-open-bounty-program">:moneybag: eIquidus Open Bounty Program :moneybag:</h3>
@@ -219,8 +217,8 @@ Table of Contents
 
 While we do not yet have our own step-by-step setup instructions, there are a few well-written guides out there already that detail how to set up and install the [original iquidus explorer](https://github.com/iquidus/explorer). Because the setup process for iquidus is more-or-less identical to eIquidus at this moment in time (making changes to settings.json is probably the biggest difference although we have helpful comments for each setting), here are some of the more complete guides that may be useful for anyone who needs more detailed instructions than are provided in the [Quick Install Instructions](#quick-install-instructions):
 
-1. [The Ultimate Iquidus Explorer Installation Guide](https://stakeandnodes.net/iquidus-explorer-installation-guide)
-2. [Node and Iquidus Explorer Setup for Dummies](https://gist.github.com/zeronug/5c66207c426a1d4d5c73cc872255c572)
+1. [The Ultimate Iquidus Explorer Installation Guide](https://medium.com/stakeandnodes/iquidus-block-explorer-setup-guide-stake-and-nodes-4d183a8d07dc)
+2. [Node and Iquidus Explorer Setup for Dummies](https://gist.github.com/scottie/b6179c34ce3cf200fcc5d08727a46623)
 3. [Iquidus Block Explorer Guide](https://www.reddit.com/r/BiblePay/comments/7elm7r/iquidus_block_explorer_guide)
 
 #### Quick Install Instructions
